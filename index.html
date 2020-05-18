@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/MisEstilos.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <title>CV | Anaid Becerra</title>
+</head>
+
+<body>
+    <section class="BannerPrincipal">
+        <div class="cont-text-principal">
+            <div>
+                <h1>Anaid Becerra Rosas</h1>
+                <h2>Ana Bec</h2>
+                <button type="button" onclick="location.href='index.html#proyectos'">Ver Proyectos</button>
+            </div>
+        </div>
+        <picture>
+            <source media="(min-width: 769px)" srcset="images/Banner-Desktop.png">
+            <source media="(min-width: 426px)" srcset="images/Banner-Tablet.png">
+            <img src="images/Banner-Mobile.png" alt="Anaid Becerra">
+        </picture>
+    </section>
+    <section class="AboutMe">
+        <div class="cont-box">
+            <div>
+                <div class="absolute">
+                    <h2>Acerca de Mi</h2>
+                </div>
+                <div class="overflow">
+                    <img class="lampara" src="images/lamparas.png" alt="lamparas">
+                </div>
+            </div>
+            <div class="cont-linea">
+                <div class="cont-circulos">
+                    <div class="circulo" id="cir1" onclick="cambio(1)"></div>
+                    <div class="circulo" id="cir2" onclick="cambio(2)"></div>
+                    <div class="circulo" id="cir3" onclick="cambio(3)"></div>
+                    <div class="circulo" id="cir4" onclick="cambio(4)"></div>
+                    <div class="circulo" id="cir5" onclick="cambio(5)"></div>
+                    <div class="circulo" id="cir6" onclick="cambio(6)"></div>
+                </div>
+                <div class="TimeLine"></div>
+            </div>
+            <div class="cont-triangulos">
+                <div class="cont-triangulos">
+                    <div class="triangulo" id="indicador1"></div>
+                    <div class="triangulo" id="indicador2"></div>
+                    <div class="triangulo" id="indicador3"></div>
+                    <div class="triangulo" id="indicador4"></div>
+                    <div class="triangulo" id="indicador5"></div>
+                    <div class="triangulo" id="indicador6"></div>
+                </div>
+            </div>
+            <div class="cont-box-center">
+
+                <!--SECCION-1-->
+                <div class="box" id="box1">
+                    <div class="imagen">
+                        <img src="images/img-sec-1.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p>Nacida el <span>11 de enero de 1994</span> En el estado de México, México.</p>
+                    </div>
+                </div>
+
+                <!--SECCION-2-->
+                <div class="box" id="box2">
+                    <div class="imagen">
+                        <img src="images/img-sec-2.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p class="text-small">Desde el <span>2012</span> Ha tenido convivencia en el <span>área administrativa</span> Colaborando en control escolar y áreas administrativas en una institución educativa.</p>
+                    </div>
+                </div>
+
+                <!--SECCION-3-->
+                <div class="box" id="box3">
+                    <div class="imagen">
+                        <img src="images/img-sec-3.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p>Ha impartido <span>talleres de dibujo y pintura</span> En niveles medio y medio superior con duración de 40 horas</p>
+                    </div>
+                </div>
+
+                <!--SECCION-4-->
+                <div class="box" id="box4">
+                    <div class="imagen">
+                        <img src="images/img-sec-4.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p>En <span>2014</span> ingreso a la Escuela de Bellas Artes en Ecatepec, Estado de México Donde estudio <span>Artes plásticas</span></p>
+                    </div>
+                </div>
+
+                <!--SECCION-5-->
+                <div class="box" id="box5">
+                    <div class="imagen">
+                        <img src="images/img-sec-5.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p><span>Ingreso</span> a la universidad Autónoma del Estado de Hidalgo En la licenciatura de <span>Artes Visuales</span></p>
+                    </div>
+                </div>
+
+                <!--SECCION-6-->
+                <div class="box" id="box6">
+                    <div class="imagen">
+                        <img src="images/img-sec-6.png" alt="...">
+                    </div>
+                    <div class="cont-text">
+                        <p>Desde <span>2019</span>, ha colaborado en diferentes proyectos <span>Escenografía e instalaciones</span></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="cont-img-expo">
+            <div class="banca">
+                <img src="images/banca.png" alt="banca de museo">
+            </div>
+        </div>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <div class="cont-text-proyectos">
+            <h2>Mis Proyectos</h2>
+            <p><span>Podrán encontrar una galería con algunos de sus mejores trabajos.</span></p>
+            <p>Trabaja con la abstracción principalmente, para mostrar su percepción personal sobre experiencias, recuerdos, sensaciones y emociones; tales como la soledad, frustración, miedo, ira, tristeza, alegría, etc.</p>
+        </div>
+    </section>
+    <section class="cont-galery">
+        <div class="galery">
+            <div class="col-izq">
+                <div>
+                    <img class="img-galery" src="images/galery-1.png" data-toggle="modal" data-target="#galery1">
+                </div>
+                <div>
+                    <img class="img-galery" src="images/galery-2.png" data-toggle="modal" data-target="#galery2">
+                </div>
+                <div>
+                    <img class="img-galery" src="images/galery-3.png" data-toggle="modal" data-target="#galery3">
+                </div>
+            </div>
+            <div class="col-der">
+                <div>
+                    <img class="img-galery" src="images/galery-4.png" data-toggle="modal" data-target="#galery4">
+                </div>
+                <div>
+                    <img class="img-galery" src="images/galery-5.png" data-toggle="modal" data-target="#galery5">
+                </div>
+                <div>
+                    <img class="img-galery" src="images/galery-6.png" data-toggle="modal" data-target="#galery6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODALS -->
+    <!-- Modal 1-->
+    <div class="modal fade" id="galery1" tabindex="-1" role="dialog" aria-labelledby="galery1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-1.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Decepción<br> Técnica: Acrílico y Trementina<br> Medidas: 80cm X 60cm<br> Año: 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="galery2" tabindex="-1" role="dialog" aria-labelledby="galery2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-2.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Pastiche de calma<br> Técnica: Acrílico<br> Medidas: 80cm X 60cm<br> Año: 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="galery3" tabindex="-1" role="dialog" aria-labelledby="galery3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-3.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Cita a Monet<br> Técnica: Acrílico<br> Medidas: 1.m X 80cm<br> Año: 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="galery4" tabindex="-1" role="dialog" aria-labelledby="galery4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-4.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Miedo<br> Técnica: Distorsión digital a Body Splash 12 de Pier Toffoletti<br> Medidas: 65cm X 40cm<br> Año: 2019
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal 5-->
+    <div class="modal fade" id="galery5" tabindex="-1" role="dialog" aria-labelledby="galery5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-5.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Recuerdo<br> Técnica: Acrílico<br> Medidas: 1.25cm X 60cm<br> Año: 2018
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6-->
+    <div class="modal fade" id="galery6" tabindex="-1" role="dialog" aria-labelledby="galery6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="images/galery-6.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-center">
+                        <p>
+                            Título: Nostalgia<br> Técnica: Distorsión digital a Body Splash 16 de Pier Toffoletti<br> Medidas: 85cm X 80cm<br> Año: 2019
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/mijs.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
